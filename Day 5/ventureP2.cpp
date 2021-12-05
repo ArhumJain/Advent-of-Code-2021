@@ -1,10 +1,6 @@
 #include <iostream>
 #include <fstream>
-#include <vector>
-#include <set>
-#include <unordered_set>
 #include <unordered_map>
-#include <utility>
 using namespace std;
 struct Segment {
     int x1, y1;
@@ -50,4 +46,3 @@ int main() {
     }
     cout << count << endl;
 }
-

@@ -1,4 +1,5 @@
-// absoulte garbage, overthought this trash like never before, p2 was much better after i realized my never ending stupidity 
+// absoulte garbage, overthought this trash like never before, p2 was much better after i realized my never ending stupidity. p2
+// still garbage just not as much considering i was tired of this puzzle by time time i pulled together a "working" solutoin 
 #include <iostream>
 #include <fstream>
 #include <vector>
