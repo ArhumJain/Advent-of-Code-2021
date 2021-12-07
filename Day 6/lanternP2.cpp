@@ -1,10 +1,8 @@
 #include <iostream>
 #include <fstream>
-#include <unordered_map>
-using namespace std;
 int main() {
-    ifstream fin("lantern.in");
-    unordered_map<int, long long> timerCounts {{8,0}, {7,0}, {6,0}, {5,0}, {4,0}, {3,0}, {2,0}, {1,0}, {0,0}};
+    std::ifstream fin("lantern.in");
+    long long timerCounts[9] = {0};
     int timer;
     for (int a = 0; a < 300; a++) {
         fin >> timer;
@@ -20,5 +18,5 @@ int main() {
         timerCounts[8] = spawns;
         timerCounts[6] += spawns;
     }
-    cout << sum << endl;
+    std::cout << sum << std::endl;
 }
