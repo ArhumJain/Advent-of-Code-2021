@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int pos = 0;
+
 long long packetEvaluate(string packet) {
     long long version;
     long long type;
@@ -77,6 +78,7 @@ long long packetEvaluate(string packet) {
     }
     return 0;
 }
+// some copy pasta because i was too lazy to do a map myself :p 
 string getBinaryStringFromHexString (string sHex)
 {
     string sReturn = "";
